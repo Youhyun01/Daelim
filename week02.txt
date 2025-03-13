@@ -7,6 +7,8 @@ add <file name>
 add . // 변경된 모든 파일 한번에 스테이징
 commit -m "commit name"
 log
-git remote (-v) // 깃 리포지토리 관리 명령어
+remote (-v) // 깃 리포지토리 관리 명령어
+remote add origin https://github.com/사용자아이디/원격리포지토리이름.git // 링크 대신 origin 사용하는 명령어
 checkout <해시코드 전체 또는 해시코드 7자리>
 checkout - // 마스터로 돌아오기
+git push -u origin main
