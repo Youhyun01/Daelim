@@ -4,6 +4,9 @@
 status
 init
 add <file name>
+add . // 변경된 모든 파일 한번에 스테이징
 commit -m "commit name"
 log
 git remote (-v) // 깃 리포지토리 관리 명령어
+checkout <해시코드 전체 또는 해시코드 7자리>
+checkout - // 마스터로 돌아오기
