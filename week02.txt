@@ -1,2 +1,9 @@
 2주차
 1교시 git 설치
+2교시 git 명령어
+status
+init
+add <file name>
+commit -m "commit name"
+log
+git remote (-v) // 깃 리포지토리 관리 명령어
